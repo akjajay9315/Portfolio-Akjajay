@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Akjajay/static/css/main.a174dcc5.css",
+    "main.js": "/Portfolio-Akjajay/static/js/main.e2ce0cf6.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Akjajay/static/js/787.1ed0c42c.chunk.js",
+    "static/media/myself.png": "/Portfolio-Akjajay/static/media/myself.31be67f780481495c1bb.png",
+    "static/media/Redwing-Medium.otf": "/Portfolio-Akjajay/static/media/Redwing-Medium.7402d4c764b8807db59b.otf",
+    "static/media/Redwing-Light.otf": "/Portfolio-Akjajay/static/media/Redwing-Light.bda278368d19c572f2f2.otf",
+    "index.html": "/Portfolio-Akjajay/index.html",
+    "static/media/angle-down.svg": "/Portfolio-Akjajay/static/media/angle-down.94241e32a1f08af621a9.svg",
+    "static/media/triangle.svg": "/Portfolio-Akjajay/static/media/triangle.5172a3481a7112a7a103.svg",
+    "main.a174dcc5.css.map": "/Portfolio-Akjajay/static/css/main.a174dcc5.css.map",
+    "main.e2ce0cf6.js.map": "/Portfolio-Akjajay/static/js/main.e2ce0cf6.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio-Akjajay/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a174dcc5.css",
+    "static/js/main.e2ce0cf6.js"
+  ]
+}
