@@ -1,57 +1,57 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 
 // Importing TagCloud for  3D Rotating Text Sphere
-// import TagCloud from 'TagCloud';
+import TagCloud from 'TagCloud';
 
 import '../../styles/Skill/Skill.scss';
 
 const Skill = () => {
   // Animation settings for Text Cloud
-  // useEffect(() => {
-  //   const container = '.tagcloud';
-  //   let radii;
+  useEffect(() => {
+    const container = '.tagcloud';
+    let radii;
 
-  //   // If 3D Text Sphere is not showing up after deployment remove the return (i.e, return() =>{}) function from below code
-  //   return () => {
-  //     const texts = [
-  //       'React',
-  //       'NodeJS',
-  //       'GIT',
-  //       'GITHUB',
-  //       'HTML',
-  //       'CSS',
-  //       'Teaching',
-  //       'JavaScript',
-  //       'Mentor',
-  //       'Public Speaking',
-  //       'Video Editing',
-  //       'LikhOG',
-  //       'The3D',
-  //       'Youtube',
-  //       'ES6',
-  //     ];
+    // If 3D Text Sphere is not showing up after deployment remove the return (i.e, return() =>{}) function from below code
+    return () => {
+      const texts = [
+        'React',
+        'NodeJS',
+        'GIT',
+        'GITHUB',
+        'HTML',
+        'CSS',
+        'Teaching',
+        'JavaScript',
+        'Mentor',
+        'Public Speaking',
+        'Video Editing',
+        'LikhOG',
+        'The3D',
+        'Youtube',
+        'ES6',
+      ];
 
 
-  //     // Decrasing 'radius' value for small screen devices  
-  //     function radiusValue() {
-  //       if (window.screen.width <= 778) {
-  //         radii = 100;
-  //       } else {
-  //         radii = 290;
-  //       }
-  //       return radii;
-  //     }
+      // Decrasing 'radius' value for small screen devices  
+      function radiusValue() {
+        if (window.screen.width <= 778) {
+          radii = 100;
+        } else {
+          radii = 290;
+        }
+        return radii;
+      }
 
-  //     const options = {
-  //       radius: radiusValue(),
-  //       maxSpeed: 'normal',
-  //       initSpeed: 'normal',
-  //       keep: true,
-  //     };
+      const options = {
+        radius: radiusValue(),
+        maxSpeed: 'normal',
+        initSpeed: 'normal',
+        keep: true,
+      };
 
-  //     return TagCloud(container, texts, options);
-  //   }
-  // , []);
+      return TagCloud(container, texts, options);
+    }}
+  , []);
   return (
     <>
       <div className="skill">
